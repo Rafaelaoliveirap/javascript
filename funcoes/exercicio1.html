@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        try {
+            function nomeCompleto() {
+
+                var nome = prompt("Digite o seu nome")
+                var sobrenome = prompt("Digite o seu sobrenome")
+                var nomeCompleto = nome + " " + sobrenome
+                return nomeCompleto
+            }
+
+            var resultado = nomeCompleto()
+            alert(resultado)
+        }
+        // fim do try //
+
+        // abertura do catch //
+        catch (erro) {
+            alert("DEU RUIM! Erro: " + erro)
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

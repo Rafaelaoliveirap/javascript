@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        
+        function notaAluno(n1, n2, n3, n4, n5){
+
+            var media4 = (n1 + n2 + n3 + n4)/4
+            var media5 = (n1 + n2 + n3 + n4 + n5)/5
+
+            var notaAluno = [media4, media5]
+            return notaAluno 
+
+        }
+
+        var n1 = parseFloat(prompt("Insira a N1"))
+        var n2 = parseFloat(prompt("Insira a N2"))
+        var n3 = parseFloat(prompt("Insira a N3"))
+        var n4 = parseFloat(prompt("Insira a n4"))
+        var n5 = parseFloat(prompt("Insira a n5"))
+
+        var media4= notaAluno(n1+n2+n3+n4)[0]
+        var media5= notaAluno(n1+n2+n3+n4+n5)[1]
+        
+        alert("A media foi: "+media4)
+        alert("A media foi: "+media5)
+
+    </script>
+</body>
+
+</html>
