@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button:hover{
+            /* button hover cria um pseudoelemento*/
+            background-color: rgb(240, 204, 114);
+        }
+        /* ELEMENTOS */
+        p{
+            color: rgb(58, 175, 196);
+            font-weight:lighter
+        }
+
+        /* PSEUDOELEMENTOS */
+
+        ul:first-line{
+            color:rgb(179, 83, 182);
+        }
+        div:first-line{
+            color: rgb(179, 24, 179);
+        }
+        p:last-child{
+            color: rgb(255, 0, 119);
+
+        }
+        p:nth-child(2){
+            color: rgb(255, 166, 0);
+
+        }
+        p:first-child i {
+            background-color: yellow;
+            color: black;
+
+        }
+        input[type="password"]{
+            color: chartreuse;
+        }
+        input[type="submit"]{ border-radius: 5px; color: rgb(207, 220, 20); background-color: black;}
+        input[type="submit"]:active{
+            background-color:rgb(207, 220, 20) ; color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <button>Clique aqui</button>
+    <br><br>
+    <button> Enviar</button>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    
+    <div>
+
+        <p>Lorem ipsum dolor sit amet <i>consectetur adipisicing elit. </i>Maxime quaerat officia, magni enim, consectetur aperiam architecto perspiciatis neque omnis molestias veritatis dicta libero natus facere facilis excepturi porro rerum eveniet.</p>
+
+        <p>Lorem ipsum dolor sit amet <i>consectetur adipisicing elit. </i>Maxime quaerat officia, magni enim, consectetur aperiam architecto perspiciatis neque omnis molestias veritatis dicta libero natus facere facilis excepturi porro rerum eveniet.</p>
+
+        <p>Lorem ipsum dolor sit amet <i>consectetur adipisicing elit. </i>Maxime quaerat officia, magni enim, consectetur aperiam architecto perspiciatis neque omnis molestias veritatis dicta libero natus facere facilis excepturi porro rerum eveniet.</p>
+
+        <p>Lorem ipsum dolor sit amet <i>consectetur adipisicing elit. </i>Maxime quaerat officia, magni enim, consectetur aperiam architecto perspiciatis neque omnis molestias veritatis dicta libero natus facere facilis excepturi porro rerum eveniet.</p>    </div>
+
+
+        <form action="">Nome: </form>
+            <input type="text">
+        <form action="">Password: </form>
+        <input type="password">
+        <form action=""> Confirm Password</form>
+        <input type="text">
+        <br>
+       
+      <input type="submit">  
+</body>
+</html>

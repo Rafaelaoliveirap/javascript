@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var frase = "eu quero aprender isso!"
+        var resultado = ""
+        var transformar = frase.split(" ")
+
+        for(var i=0; i< transformar.length; i++){
+
+        transformar[i] = transformar[i].replace(transformar[i].slice(0,1),transformar[i].slice(0,1).toUpperCase())
+        resultado = resultado + " " + transformar[i]
+        }
+        alert(resultado)
+
+    </script>
+    
+</body>
+</html>

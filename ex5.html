@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = "a pri beijou o biel a força"
+        var resp = ""
+        var dividir = nome.split (" ")
+
+        for (var i=0; i<dividir.length; i++){
+            dividir[i] = dividir[i].replace(dividir[i].slice(0,1), dividir[i].slice(0,1).toUpperCase())
+            resp = resp + " " + dividir[i]
+        }
+
+        alert(resp)
+
+    </script>
+</body>
+</html>

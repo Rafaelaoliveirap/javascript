@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var frase = "cc aaaa osdaodnaso ahahah"
+        var resp = frase.split (" ")
+        var word = ""
+
+        for(i=0; i<resp.length; i++){
+            resp[i]= resp[i].replace(resp[i].slice(0,1), resp[i].slice(0,1).toUpperCase())
+            word=word+" " + resp[i]
+        }
+        alert(word)
+
+    </script>
+    
+</body>
+</html>
